@@ -1,6 +1,5 @@
 import LocalForage from 'localforage';
 
-/** @hidden */
 export const Drivers = {
   SecureStorage: 'ionicSecureStorage',
   IndexedDB: LocalForage.INDEXEDDB,
